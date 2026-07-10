@@ -197,3 +197,241 @@ p.speaker_tile {
 }
 
 /* speaker section end */
+
+
+/* pricing section start */
+
+.pricing_container {
+    max-width: 1440px;
+    padding: 0px 60px 80px 60px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+h2.pricing_heading {
+    margin: 0px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: #0D1B2A;
+    line-height: 60px;
+}
+
+p.pricing_subheading {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #575757;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.pricing_card_container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1160px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.standard_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+.pro_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    background-color: #0D1B2A;
+    border-radius: 12px;
+    border: 1px solid #0D1B2A;
+}
+
+.team_card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+    background-color: #F8F9FB;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+h3.pro_card_price {
+    margin: 0px;
+    padding: 8px 0px 0px 0px;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 700;
+    color: #fff;
+}
+
+p.pro_card_des {
+    font-size: 13px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 4px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    opacity: 50%;
+    line-height: 19.5px;
+}
+
+ul.pro_feature_list {
+    gap: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+
+.pro_feature_list li {
+    position: relative;
+    line-height: 21px;
+    list-style: none;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #fff;
+    opacity: 80%;
+    font-weight: normal;
+}
+
+p.pro_badge {
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    margin: 0px;
+    color: #93C5FD;
+    text-transform: uppercase;
+}
+
+.pro_feature_list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background: #60A5FA;
+  border-radius: 50%;
+}
+
+
+a.pro_pricing_btn {
+    width: 100%;
+    padding: 11px 0px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 21px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #2563EB;
+}
+
+p.badge {
+    font-size: 13px;
+    margin: 0px;
+    font-weight: 600;
+    line-height: 19.5px;
+    color: #888888;
+    text-transform: uppercase;
+}
+
+h3.card_price {
+    line-height: 44px;
+    font-weight: bold;
+    padding-top: 8px;
+    color: #0D1B2A;
+    font-size: 44px;
+    margin: 0px;
+}
+
+p.card_des {
+    margin: 0px;
+    line-height: 19.5px;
+    padding-top: 4px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    color: #888888;
+    border-bottOm: 1px solid #E5E7EB;
+}
+
+ul.feature_list {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.feature_list li {
+    position: relative;
+    line-height: 21px;
+    list-style: none;
+    padding-left: 16px;
+    font-size: 14px;
+    color: #333333;
+    opacity: 80%;
+    font-weight: normal;
+}
+
+.feature_list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 5px;
+  height: 5px;
+  background: #2563EB;
+  border-radius: 50%;
+}
+
+
+a.standard_pricing_btn {
+    width: 100%;
+    padding: 11px 0px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 21px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #2563EB;
+    font-weight: 600;
+    border: 1px solid #2563EB;
+    
+}
+
+a.team_pricing_btn {
+    width: 100%;
+    padding: 11px 0px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 21px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0D1B2A;
+    font-weight: 600;
+    border: 1px solid #0D1B2A;
+    
+}
+/* pricing section end */
