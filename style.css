@@ -436,6 +436,76 @@ a.team_pricing_btn {
 }
 /* pricing section end */
 
+/* faq section start */
+.faq_section {
+  background: #ffffff;
+}
+
+.faq_section_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 60px 80px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq_heading h2 {
+    font-size: 48px;
+    line-height: 110%;
+    color: #0f172a;
+    margin: 0px 0px 14px 0px;
+}
+
+.faq_heading p {
+    font-size: 18px;
+    color: #575757;
+    margin: 0px 0px 48px 0px;
+}
+.faq_item_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.faq_item {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  padding: 28px;
+}
+
+.faq_item h3 {
+    font-size: 20px;
+    color: #0f172a;
+    margin: 0px 0px 12px 0px;
+}
+
+.faq_item p {
+    margin: 0px 0px 0px 0px;
+    font-size: 16px;
+    line-height: 160%;
+    color: #64748b;
+}
+
+.faq_button {
+  text-align: center;
+  margin-top: 42px;
+}
+
+.faq_btn {
+  display: inline-block;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 16px 34px;
+  border-radius: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+/* faq section end */
+
+
 /* footer section start */
 
 section.footer_section {
